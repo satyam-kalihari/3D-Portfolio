@@ -39,7 +39,7 @@ const Cursor = (props) => {
   useGSAP(() => {
 
     gsap.to(ref.current.position, {
-      x: ref.current.position.x - 40,
+      x: ref.current.position.x - 50,
       z: ref.current.position.z - 40,
       scrollTrigger: {
         trigger: divRef.current,

@@ -27,6 +27,6 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "components/Vrman.jsx"
-, "components/Hero.tsx"  ],
+, "components/Hero.tsx", "components/HeroCamera.jsx"  ],
   "exclude": ["node_modules"]
 }

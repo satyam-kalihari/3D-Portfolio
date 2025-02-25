@@ -8,8 +8,12 @@ import Cursor from "./Arrow";
 import ReactLogo from "./ReactLogo";
 import Cube from "./Cube";
 import SpikeBall from "./SpikeBall";
+import HeroCamera from "./HeroCamera";
+import { useMediaQuery } from "react-responsive";
 
 const Hero = () => {
+  const isSmall = useMediaQuery({ maxWidth: 426 });
+
   return (
     <section className="h-[150vh] w-full flex flex-col relative" id="home">
       <div className=" w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3 bg-transparent">
@@ -43,11 +47,13 @@ const Hero = () => {
               anglePower={3}
             /> */}
 
-            <Vrman
-              position={[0, -45, 10]}
-              scale={1.5}
-              rotation={[-0.5, 0, 0]}
-            />
+            <HeroCamera isSmall={isSmall}>
+              <Vrman
+                position={[0, -45, 10]}
+                scale={1.5}
+                rotation={[-0.5, 0, 0]}
+              />
+            </HeroCamera>
 
             <group>
               <ReactLogo position={[40, 30, 10]} />
