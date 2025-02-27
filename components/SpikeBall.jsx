@@ -5,6 +5,7 @@ License: CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 Source: https://sketchfab.com/3d-models/spiked-ball-b03e6a597b794953977c7d60c27492bd
 Title: Spiked Ball
 */
+"use client"; 
 
 import React, { useRef } from "react";
 import { Html, useGLTF } from "@react-three/drei";

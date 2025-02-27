@@ -1,4 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
+"use client";
+
 import { useRef } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { useGLTF, Bounds, Edges, Html } from "@react-three/drei";

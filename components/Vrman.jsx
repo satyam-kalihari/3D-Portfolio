@@ -6,6 +6,7 @@ License: CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 Source: https://sketchfab.com/3d-models/rgs-vr-headset-prototype-6363621f57554bfd8b6fd8e049f83f34
 Title: RGS_VR_headset_prototype
 */
+"use client";
 
 import React, { useRef } from "react";
 import { useFrame, useLoader } from "@react-three/fiber";

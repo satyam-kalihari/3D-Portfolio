@@ -5,6 +5,7 @@
     License: CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
     Source: https://sketchfab.com/3d-models/react-logo-76174ceeba96487f9863f974636f641e
 */
+"use client";
 
 import { useGSAP } from "@gsap/react";
 import { Float, Html, useGLTF } from "@react-three/drei";

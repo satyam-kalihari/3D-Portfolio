@@ -5,6 +5,7 @@ License: CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 Source: https://sketchfab.com/3d-models/yellow-metal-cube-58bcde745f6b48c9be24d6091f06f1d5
 Title: Yellow Metal Cube
 */
+"use client";
 
 import React, { useRef } from "react";
 import { Html, useGLTF } from "@react-three/drei";
