@@ -95,10 +95,10 @@ export const myProjects = [
     ],
   },
   {
-    title: "LiveDoc - Real-Time Google Docs Clone",
-    desc: "LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.",
+    title: "clone of Duo Studio's front end!",
+    desc: "Unique Feature: One of the highlights of this project is the custom cursor that adds an interactive and engaging element to the user experience. But that's not all! I've also incorporated captivating animations using GSAP, breathing life into every interaction and making the user journey truly dynamic and enjoyable. ",
     subdesc:
-      "With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.",
+      "Building the navigation bar presented quite a challenge, but I tackled it head-on by revisiting my DOM manipulation notes. The result is a sleek and user-friendly navigation that I'm proud of! ",
     href: "https://www.youtube.com/watch?v=y5vE8y_f_OM",
     texture: "/textures/project/project2.mp4",
     logo: "/assets/project-logo2.png",
